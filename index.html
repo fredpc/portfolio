@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portfólio</title>
+    <script src="https://kit.fontawesome.com/8dfe929281.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600&family=Source+Sans+Pro:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contacts">Contatos</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+
+        <h1>
+            <span>Olá, me chamo</span>
+            <strong>Frederico</strong>
+            <span>e este é meu</span>
+            <strong>projeto de portfólio</strong>
+        </h1>
+
+    </section>
+
+    <section id="about">
+
+        <h5>Quem sou eu?</h5>
+        <div class="about-container">
+            <div class="about-image">
+                <img src="./assets/me.jpg" alt="Frederico Prata Costa" />
+            </div>
+            <p>
+                Meu nome é Frederico Prata Costa e sou discente do curso de Engenharia da Produção
+                na <a href="https://uftm.edu.br" target="_blank">Universidade Federal do Triângulo Mineiro (UFTM)</a>.
+                Este portfólio foi criado com o intuito de aprimorar minhas habilidades em HTML, CSS e JavaScript.
+            </p>
+        </div>
+
+    </section>
+
+    <section id="projects">
+
+        <h5>Meus Projetos</h5>
+        <p>Observação: Os projetos abaixo são apenas referências, placeholders.</p>
+
+        <div class="container">
+            <a target="_blank" href="https://www.google.com" class="card">
+                <div class="image-container">
+                    <img src="https://images.unsplash.com/photo-1601042879364-f3947d3f9c16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+                        alt="Tokyo" />
+                </div>
+                <h6>Tokyo</h6>
+                <p>Um estudo sobre o avanço tecnológico em Tokyo.</p>
+            </a>
+            <a target="_blank" href="https://www.google.com" class="card">
+                <div class="image-container">
+                    <img src="https://images.unsplash.com/photo-1673560437440-4695953a27fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                        alt="New York" />
+                </div>
+                <h6>New York City</h6>
+                <p>Um estudo sobre o impacto da imigração europeia na construção da cidade de Nova Iorque.</p>
+            </a>
+            <a target="_blank" href="https://www.google.com" class="card">
+                <div class="image-container">
+                    <img src="https://images.unsplash.com/photo-1526959300019-11dd99a21233?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                        alt="Sidney" />
+                </div>
+                <h6>Sidney</h6>
+                <p>Um estudo sobre o impacto das Olimpíadas de Sydney no comércio local.</p>
+            </a>
+            <a target="_blank" href="https://www.google.com" class="card">
+                <div class="image-container">
+                    <img src="https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                        alt="Rio de Janeiro" />
+                </div>
+                <h6>Rio de Janeiro</h6>
+                <p>Um estudo sobre o turismo no Rio de Janeiro.</p>
+            </a>
+        </div>
+
+    </section>
+
+    <section id="contacts">
+
+        <h5>Contatos</h5>
+        <p>Observação: Sinta-se livre para testar o formulário.</p>
+
+        <div class="contacts-container">
+            <form action="https://formspree.io/f/xgebrpeq" method="POST">
+                <div class="input-container">
+                    <label for="name">Nome e sobrenome</label>
+                    <input type="text" name="name" id="name" placeholder="Digite seu nome completo" />
+                </div>
+                <div class="input-container">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail" />
+                </div>
+                <div class="text-area-container">
+                    <label for="message">Mensagem</label>
+                    <textarea rows="5" name="message" id="message" placeholder="Digite sua mensagem"></textarea>
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <div class="contacts-content">
+                <div class="say-hello">
+                    <h6>Mídias sociais</h6>
+                </div>
+
+                <div class="email-plus-links">
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/frederico-prata-costa-6215b5234" target="_blank"
+                                rel="noopener" class="fa-brands fa-linkedin"></a></li>
+                        <li><a href="https://www.instagram.com/fredpc1/" target="_blank" rel="noopener"
+                                class="fa-brands fa-instagram"></a></li>
+                        <li><a href="https://github.com/fredpc" target="_blank" rel="noopener"
+                                class="fa-brands fa-github"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <button onclick="toTop()" id="to-top-btn"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
